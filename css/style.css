@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    
+    height: auto;
+    width: 100%;
+    z-index: 9999;
+}
+
+.img-fija{
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    z-index: 9999;
+    
+}
+
+
+nav  {
+    border-bottom: 1px solid #fff;
+    flex-direction: column;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    opacity: 0.7;
+    padding: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    background: rgba(255,255,255, 0.1);
+    
+}
+
+.navbar-light .navbar-nav .nav-item.active a{
+    color: #fff;
+    background: rgba(255,255,255, 0.1);
+    
+}
+
+
+
+section .slider {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+
+section .bg-text h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+}
+
+
+section .bg-text{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);    
+    color: #fff;
+    
+}
+
+section .bg-text button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 7px 60px;
+    
+}
+
+section .bg-text button:hover{
+    background: #fff;
+     color: #000;
+}
+
+
+/*Estilos Cards*/
+
+
+.contenedor{
+    padding-top: 40px;
+    
+   
+}
+
+.contenedor h5{
+    color: #002633;
+    font-family: 'Playfair Display', serif;
+}
+
+.card {
+    margin: 10px 15px;
+    padding: 20px;
+    
+}
+
+
+.card img{
+    width: 15%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body{
+    text-align: center;
+    color: #777777;
+}
+
+
+.card-body a{
+    border: 1px solid #002633;
+    background: none;
+    text-transform: uppercase;
+     border-radius: none;
+    
+}
+
+
+
+.card-body a:hover{
+    color: #fff;
+     background-color: #002633;
+    
+}
+
+/*estilos about us*/
+
+.about{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 55px;
+    color: #002633;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.about hr{
+    height: 2px;
+    background-color: #C81010;
+    width: 70px;
+    display: inline-block;
+    
+}
+
+
+.we h3{
+    text-align: right;
+    color: #c81010;
+    font-family: 'Playfair Display', serif;
+}
+
+.imagen{
+    padding-top: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen .iconos img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    float: left;
+}
+
+
+.imagen .iconos{
+    padding: 10px;
+    
+    
+}
+
+
+.nums{
+    padding-left: 20px;
+    margin-bottom: 150px;
+}
+
+.nums h2{
+    font-size: 55px;
+    color: #002633;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.nums p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+
+/*Botones de la seccion galeria*/
+.boton-gal{
+    text-align: center;
+    padding-bottom: 20px;
+    
+    
+}
+
+.boton-gal #rojo{
+    background: #C81010; 
+    color: #fff;
+    padding: 10px;
+    
+}
+
+.boton-gal button{
+    background: #fff; 
+    color: #002633;
+    padding: 10px;
+    border: none;
+    
+}
+
+
+.boton-gal button:hover{
+    background: #C81010; 
+    color: #fff;
+}
+
+
+
+
+
+ .galery-item{
+   
+    display: flex;
+    justify-content: center;
+    float: left;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    width: calc(25vw - 5px);
+    height: 25vw;
+    
+}
+
+.portafolio-item img{
+    width: calc(25vw - 5px);
+    height: 25vw;
+}
+
+.portafolio-text h3{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.portafolio-text p{
+    text-align: center;
+}
+
+.portafolio-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.portafolio-image{
+    transition: all 0.5s ease-out;
+}
+
+.portafolio-text{
+    width: calc(25vw - 5px);
+    height: 25vw;
+    position: absolute;
+    top:0px;
+    padding: 40px 20px;
+    background: #C81010;
+    color:#fff;
+    
+    transform: translateY(100%);
+    
+    transition: all 0.3s linear;
+}
+
+.portafolio-item:hover .portafolio-text{
+    transform: translateY(0%);
+}
+
+.portafolio-item:hover .portafolio-image{
+     transform: scale(1.15);
+}
+
+
+
+/*estilos de slider inferior*/
+
+
+.contenedor-slider{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.contenedor-slider .slides{
+    width: 400%;
+    left: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+    transition: all .8s cubic-bezier(1, 0, 0, 1);
+}
+
+.contenedor-slider .slides li{
+    width: 25%;
+    position: relative;
+    float: left;
+}
+
+
+.contenedor-slider .slides li p{
+    margin-top: 0px;
+}
+
+.contenedor-slider .slides li span q{
+    max-width: 90%;
+    margin: auto;
+   
+}
+
+
+.contenedor-slider .slides li img{
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+
+
+.contenedor-slider li span.autor q{
+    margin-top: 20px;
+    font-size: 16px;
+    display: block;
+    color:#002633;
+    font-family: 'Playfair Display', serif;
+}
+
+.contenedor-slider input{
+    display: block;
+    list-style: none;
+    text-align: center;
+    border: 40px;
+    position: absolute;
+    width: 104px;
+    left: 50%;
+    margin-left: -52px;
+    display: none;
+    
+}
+
+
+.contenedor-slider .navigation{
+   display: flex;
+   justify-content: center;
+}
+
+.contenedor-slider .navigation label{
+    float: left;
+    margin: 6px;
+    height: 15px;
+    width: 15px;
+    border: solid 2px white;
+    background-color: #7697a2;
+    transform: rotate(45deg);
+}
+
+#radio1:checked ~ .slides{
+    transform: translateX(0%);
+}
+
+#radio2:checked ~ .slides{
+    transform: translateX(-25%);
+}
+
+#radio3:checked ~ .slides{
+    transform: translateX(-50%);
+}
+
+.navigation label:hover{
+    cursor: pointer;
+}
+
+
+#radio1:checked ~ .navigation label#radioSelect1, #radio2:checked ~ .navigation label#radioSelect2, #radio3:checked ~ .navigation label#radioSelect3{
+    background: #002633;
+}
+
+
+
+/*Footer*/
+
+footer .fot p{
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    background: #C81010;
+    font-family: 'Playfair Display', serif;
+   
+    
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+.fot-2{
+      background: #002633;
+}
+
+.fot-2 h5, p{
+    color: #7697A2;
+}
+
+.fot-22{
+    padding: 70px;
+}
+
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.fin{
+    background: #002633;
+     font-size: 12px;
+    padding: 20px;
+    
+}
+
+.fin .der{
+   display: flex;
+    justify-content: flex-end;
+}
+
+.fin hr{
+     background: #002633;
+      background-color: #fff;
+}
+
+
+
+
+
