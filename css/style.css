@@ -140,20 +140,23 @@ section .bg-text button:hover{
 
 /*estilos about us*/
 
-.about{
+.about p{
     padding-top: 80px;
     text-align: center;
     font-size: 55px;
-    color: #002633;
+    color: #000;
     font-family: 'Playfair Display', serif;
     
 }
 
-.about hr{
+.about hr {
     height: 2px;
     background-color: #C81010;
     width: 70px;
-    display: inline-block;
+    
+    
+    
+    
     
 }
 
@@ -164,22 +167,35 @@ section .bg-text button:hover{
     font-family: 'Playfair Display', serif;
 }
 
+.we p{
+    color: #000;
+}
+
 .imagen{
     padding-top: 40px;
     font-family: 'Playfair Display', serif;
 }
 
 .imagen img{
+    
     width: 100%;
-    height: 100%;
+   
 }
 
 .imagen .iconos img{
     width: 50px;
     height: 50px;
+    margin: 10px;
     display: flex;
     float: left;
 }
+
+.imagen .iconos p {
+    color: #002633;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+
 
 
 .imagen .iconos{
@@ -246,7 +262,7 @@ section .bg-text button:hover{
     justify-content: center;
     float: left;
     flex-wrap: wrap;
-    border: 1px solid red;
+    
     width: calc(25vw - 5px);
     height: 25vw;
     
@@ -409,8 +425,9 @@ section .bg-text button:hover{
 
 /*Footer*/
 
-footer .fot p{
+.encabezado p{
     margin-top: 50px;
+    margin-bottom: 0px;
     padding: 15px;
     text-align: center;
     font-size: 28px;
@@ -440,10 +457,10 @@ footer img{
 
 
 .map-container{
-overflow:hidden;
+
 padding-bottom:56.25%;
 position:relative;
-height:0;
+height:0px;
 }
 .map-container iframe{
 left:0;
@@ -453,19 +470,20 @@ width:100%;
 position:absolute;
 }
 
-.fin{
+.bg-fin{
     background: #002633;
      font-size: 12px;
     padding: 20px;
     
 }
 
-.fin .der{
+.bg-fin .der{
    display: flex;
     justify-content: flex-end;
 }
 
-.fin hr{
+hr{
+    margin-top:0px;
      background: #002633;
       background-color: #fff;
 }
